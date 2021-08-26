@@ -1,6 +1,13 @@
 </div>
 <footer id="ttr_footer">
     <!-- <h1>FOOTER</h1> -->
+    <div class="social">
+        <a href="#" class="fa fa-facebook"></a>
+        <a href="#" class="fa fa-twitter"></a>
+        <a href="#" class="fa fa-google"></a>
+        <a href="#" class="fa fa-rss"></a>
+    </div>
+
     <div class="row">
         <div class="col-2">
             <h4>PRODUCTS</h4>
