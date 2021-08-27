@@ -1,67 +1,79 @@
 <?php get_header(); ?>
 
 <head>
-    <!-- Owl Carousel Main CSS -->
-    <link rel="stylesheet" href="css/owl.carousel.min.css">
-    <!-- Owl Carousel Default CSS -->
-    <link rel="stylesheet" href="/css/owl.theme.default.css">
+
+    <script type="text/javascript"
+        src="<?php echo get_stylesheet_directory_uri().'https://code.jquery.com/jquery-2.2.0.min.js'; ?>"></script>
+    <script type="text/javascript"
+        src="<?php echo get_stylesheet_directory_uri().'https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js'; ?>">
+    </script>
+    <script type="text/javascript"
+        src="<?php echo get_stylesheet_directory_uri().'https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js'; ?>">
+    </script>
+
+    <script type="text/javascript" src="<?php echo get_stylesheet_directory_uri().'/js/script.js'; ?>"></script>
+    <script type="text/javascript" src="<?php echo get_stylesheet_directory_uri().'/js/carousel.js'; ?>"></script>
+    <script type="text/javascript" src="<?php echo get_stylesheet_directory_uri().'/js/jquery.js'; ?>"></script>
+    <script type="text/javascript" src="<?php echo get_stylesheet_directory_uri().'/js/jquery-ui.min.js'; ?>"></script>
+    <script type="text/javascript" src="<?php echo get_stylesheet_directory_uri().'/js/bootstrap.js'; ?>"></script>
+    <script type="text/javascript" src="<?php echo get_stylesheet_directory_uri().'/js/bootstrap.min.js'; ?>"></script>
+
+    <link
+        href="<?php echo get_stylesheet_directory_uri().'https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css'; ?>"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri().'/css/bootstrap.css'; ?>">
+    <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri().'/css/main.css'; ?>">
+    <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri().'/css/style.css'; ?>">
+
 </head>
 
 <main id="primary" class="site-main">
 
-    <!-- Slider Area Start Here -->
-    <section class="slider-area">
-        <div class="sliders owl-carousel">
-            <div>
-                <img src="<?php echo get_template_directory_uri();?>/images/slider/slider1.jpg" class="d-block w-100"
-                    alt="...">
-            </div>
-            <div>
-                <img src="<?php echo get_template_directory_uri();?>/images/slider/slider2.jpg" class="d-block w-100"
-                    alt="...">
-            </div>
-            <div>
-                <img src="<?php echo get_template_directory_uri();?>/images/slider/slider1.jpg" class="d-block w-100"
-                    alt="...">
-            </div>
-            <div>
-                <img src="<?php echo get_template_directory_uri();?>/images/slider/slider2.jpg" class="d-block w-100"
-                    alt="...">
-            </div>
-        </div>
-    </section>
-    <!-- Slider Area End Here -->
-
     <section class="container-fluid pb-5 pt-4">
-        <div id="carouselExampleDark" class="owl-carousel carousel carousel-dark slide overflow-hidden rounded"
+
+        <div id="carouselExampleDark" class="carousel carousel-dark slide overflow-hidden rounded"
             data-bs-ride="carousel">
+
             <div class="carousel-indicators">
                 <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
                     aria-current="true" aria-label="Slide 1"></button>
                 <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
                     aria-label="Slide 2"></button>
             </div>
+
             <div class="carousel-inner">
+
                 <div class="carousel-item active" data-bs-interval="10000">
-                    <a href="#"><img src="<?php echo get_template_directory_uri();?>/images/slider/slider1.jpg"
-                            class="d-block w-100" alt="..."></a>
+                    <a href="#">
+                        <img src="<?php echo get_template_directory_uri();?>/images/slider/slider1.jpg"
+                            class="d-block w-100" alt="...">
+                    </a>
                 </div>
+
                 <div class="carousel-item" data-bs-interval="2000">
-                    <a href="#"><img src="<?php echo get_template_directory_uri();?>/images/slider/slider2.jpg"
-                            class="d-block w-100" alt="..."></a>
+                    <a href="#">
+                        <img src="<?php echo get_template_directory_uri();?>/images/slider/slider2.jpg"
+                            class="d-block w-100" alt="...">
+                    </a>
                 </div>
+
             </div>
+
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark"
                 data-bs-slide="prev">
                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                 <span class="visually-hidden">Previous</span>
             </button>
+
             <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark"
                 data-bs-slide="next">
                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
                 <span class="visually-hidden">Next</span>
             </button>
+
         </div>
+
     </section>
 
 
@@ -161,9 +173,9 @@
                             alt="..." loading="lazy">
                         <h2 class="position-absolute top-50 start-0 end-0 mb-0 text-center text-white"
                             style="z-index: 2;">Special Offers</h2>
-
                     </a>
                 </div>
+
             </div>
         </div>
 
@@ -171,7 +183,8 @@
 
     <section class="container pt-5 special-offers">
         <h1 class="text-center pt-5">Special Offers</h1>
-        <p class="text-center">We offer a number of high quality toys to help keep<br> your pets healthy and spoiled!
+        <p class="text-center">We offer a number of high quality toys to help keep<br> your pets healthy and
+            spoiled!
         </p>
 
         <div class="pt-5 pb-5">

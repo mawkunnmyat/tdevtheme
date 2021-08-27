@@ -15,7 +15,8 @@
 
 <body <?php body_class(); ?>>
     <div id="navmenu">
-        <div class="header-logo"><a href="<?php echo get_settings('home'); ?>"><img src="<?php echo get_template_directory_uri().'/logo.jpg'; ?>"></a> </div>
+        <div class="header-logo"><a href="<?php echo get_settings('home'); ?>"><img
+                    src="<?php echo get_template_directory_uri().'/logo.jpg'; ?>"></a> </div>
         <ul>
             <li><a href="#">ITALIAN</a></li>
             <li><a href="#">GREEK</a></li>
@@ -29,8 +30,8 @@
             <li><a href="#"><i class="fas fa-search"></i></a></li>
             <li><a href="#"><i class="fas fa-flag"></i></a></li>
             <li><a href="#"><i class="far fa-money-bill-alt"></i></a></li>
-		    <li><a href="#"><i class="fas fa-user-circle"></i></a></li>
-		    <li><a href="#"><i class="fas fa-shopping-cart"></i></a></li>
+            <li><a href="#"><i class="fas fa-user-circle"></i></a></li>
+            <li><a href="#"><i class="fas fa-shopping-cart"></i></a></li>
         </ol>
     </div>
     <hr />
