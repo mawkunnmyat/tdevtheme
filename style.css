@@ -41,25 +41,25 @@ body {
   text-align: center;
 } */
 
-#navmenu ul { 
+#navmenu ul {
   text-align: center;
-  margin: 30px; 
-  padding: 10px; 
-	list-style-type: none;  
+  margin: 30px;
+  padding: 10px;
+  list-style-type: none;
 }
-#navmenu li { 
-  display: inline; 
+#navmenu li {
+  display: inline;
 }
-#navmenu ul li a { 
-  text-decoration:none;
+#navmenu ul li a {
+  text-decoration: none;
   margin: 4px;
-	padding: 5px 10px 5px 10px;
+  padding: 5px 10px 5px 10px;
   color: black;
   font-size: 20px;
 }
-#navmenu ul li a:hover { 
+#navmenu ul li a:hover {
   color: white;
-	background: orange; 
+  background: orange;
 }
 
 .title {
@@ -112,80 +112,13 @@ footer h4 {
   font-size: 20px;
   font-weight: 500;
 }
-
-/* login css */
-
-/* *{
-  box-sizing: border-box;
-} */
-/* body{
-  font-family:'Open Sans' ,sans-serif;
-  /* viewport Height(vh) */
-  /* height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  /* margin: 0; */
-  /* overflow-y: hidden;
-} */ 
-.hr{
-  width: 20%;
+footer ul {
+  list-style: none;
 }
-.form{
-  width: 480px;
-  background-color:var(--wcc) ;
-  /* h v b c */
-  box-shadow: 0 2px 10px rgba(0, 0,0, 0.3);
-  border-radius: 5px;
-}
-h2 {
+
+footer p {
   text-align: center;
-  margin-bottom: 0;
-}
-h3 {
-  text-align: center;
-  margin-bottom: 0;
-}
-.form{
-  padding:30px 40px ;
-}
-.form .form-control{
-  margin-bottom: 10px;
-  margin-bottom: 20px;
-}
-.form-control label{
-  display: block;
-  color:var(--gyc) ;
-  margin-bottom: 5px;
-}
-.form-control .input{
-  padding: 10px;
-  width: 100%;
-  font-family: inherit;
-}
-.form-control .input:focus{
-  outline: 0;
-}
-.form-control .input::placeholder{
-  color: rgba(0, 0, 0, 0.3);
-  font-family: inherit;
-}
-.form .btn{
-  cursor: pointer;
-  width: 20%;
-  padding: 10px;
-  font-size: 16px;
-  border-radius: 4px;
-  background-color:white;
-  color:black;
-  border: 0;
-  font-family:inherit;
-  align-items: center;
-
-}
-.form .btn:hover{
-  background-color: black;
-  color: white;
+  font-size: 13px;
 }
 
 /* Singup.css */
