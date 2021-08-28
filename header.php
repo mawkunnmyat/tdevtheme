@@ -15,10 +15,11 @@
 
 <body <?php body_class(); ?>>
     <div id="navmenu">
-        <div class="header-logo"><a href="<?php echo get_settings('home'); ?>"><img
-                    src="<?php echo get_template_directory_uri().'/logo.jpg'; ?>"></a> </div>
+        <div class="header-logo"><a href="<?php echo get_settings('home'); ?>">
+                <img src="<?php echo get_template_directory_uri().'/logo.jpg'; ?>"></a>
+        </div>
         <ul>
-            <li><a href="#">ITALIAN</a></li>
+            <li><a href="signup">ITALIAN</a></li>
             <li><a href="#">GREEK</a></li>
             <li><a href="#">CHINESE</a></li>
             <li><a href="#">ASIA</a></li>
