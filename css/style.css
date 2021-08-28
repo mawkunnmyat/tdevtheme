@@ -27,10 +27,8 @@ body {
 #sidebar_right {
   border-left: 1px solid black;
 }
-/* .header-logo {
-  text-align: center;
-}
-.header-logo img {
+
+/* .header-logo img {
   height: 45px;
 } */
 
@@ -40,7 +38,32 @@ body {
   color: #aaa;
   text-align: center;
 } */
-
+/* #navmenu{
+  position: fixed;
+} */
+.header-logo {
+  text-align: left;
+  margin-top: 30px; 
+  padding: 20px;
+}
+#navmenu ul{ 
+  text-align: center;
+  /* margin-top: 30px;  */
+  padding: 10px; 
+	list-style-type: none;  
+}
+#navmenu li{ 
+  display: inline; 
+}
+#navmenu ul li a{ 
+  text-decoration:none;
+  margin: 4px;
+	padding: 5px;
+  color: black;
+  font-size: 20px;
+}
+/* #navmenu ul li a:hover{ 
+} */
 #navmenu ul {
   text-align: center;
   margin: 30px;
@@ -61,6 +84,16 @@ body {
   color: white;
   background: orange;
 }
+
+#navmenu ol{
+  /* margin-top: 30px; */
+  text-align: right;
+  list-style-type: none;
+  font-size: 20px;
+}
+/* #navmenu i{
+  font-size: 16px;
+} */
 
 .title {
   font-size: 11pt;
@@ -103,14 +136,45 @@ a {
   margin: 0px;
   background: #ddd;
 }
+.woocommerce-cart .woocommerce {
+    display: flex;
+  }
+  .woocommerce-cart .woocommerce-cart-form {
+    flex: 1 0 70%;
+    margin-right: 30px;
+  }    
+  .woocommerce-cart .cart-collaterals {
+    flex: 1 0 30%;
+    margin-left: 30px;
+  }
+.social{
+  text-align: center;
+  background-color: #3a3a3aef;
+  padding: 10px;
+}
+.social .fa{
+  padding: 10px;
+  font-size: 20px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none; 
+  background: #fae675ef;
+  color: white;
+}
+.social .fa:hover {
+	color:white;
+  background: rgba(58, 58, 58, 0.1);
+}
 footer {
   width: 100%;
   border-top: 1px #a2a2a2 solid;
   background: #eee;
 }
+
 footer h4 {
-  font-size: 20px;
+  font-size: 16px;
   font-weight: 500;
+  padding: 5px 0px 0px 5px;
 }
 footer ul {
   list-style: none;
@@ -120,8 +184,26 @@ footer p {
   text-align: center;
   font-size: 13px;
 }
+<<<<<<< HEAD:style.css
 
 /* Singup.css */
+=======
+/* login css */
+
+/* *{
+  box-sizing: border-box;
+}
+body{
+  font-family:'Open Sans' ,sans-serif;
+  /* viewport Height(vh) */
+  /* height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center; */
+  /* margin: 0; */
+  /* overflow-y: hidden;
+} */ 
+>>>>>>> 2ec9a1ee9521e09d10c5a6da482631983668cd67:css/style.css
 .hr{
   width: 20%;
 
@@ -183,4 +265,8 @@ h3 {
 .form .btn:hover{
   background-color: black;
   color: white;
+<<<<<<< HEAD:style.css
 }
+=======
+}
+>>>>>>> 2ec9a1ee9521e09d10c5a6da482631983668cd67:css/style.css
